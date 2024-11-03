@@ -9,21 +9,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 [How to upgrade to the latest version!](https://unicorn-trading-suite.docs.lucit.tech/readme.html#installation-and-upgrade)
 
-## 2.0.0.dev (development stage/unreleased/unstable)
-
-## 2.0.0
-### Added
-- lucit-licensing-python
-
-## 1.1.0
-### Added
-- unicorn-binance-trailing-stop-loss
-
-## 1.0.2
-Testing azure pipe
-
-## 1.0.1
-PYPI and Conda integration
+## 1.0.0.dev (development stage/unreleased/unstable)
 
 ## 1.0.0
 Initial release.

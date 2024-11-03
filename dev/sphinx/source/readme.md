@@ -1,5 +1,3 @@
-[![Get a UNICORN Trading Suite License](https://raw.githubusercontent.com/LUCIT-Systems-and-Development/unicorn-trading-suite/master/images/logo/LUCIT-UBS-License-Offer.png)](https://shop.lucit.services)
-
 [![GitHub Release](https://img.shields.io/github/release/LUCIT-Systems-and-Development/unicorn-trading-suite.svg?label=github)](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/releases)
 [![GitHub Downloads](https://img.shields.io/github/downloads/LUCIT-Systems-and-Development/unicorn-trading-suite/total?color=blue)](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/releases)
 ![Anaconda Release](https://img.shields.io/conda/v/lucit/unicorn-trading-suite?color=blue)
@@ -9,8 +7,6 @@
 [![License](https://img.shields.io/badge/license-LSOSL-blue)](https://unicorn-trading-suite.docs.lucit.tech/license.html)
 [![Supported Python Version](https://img.shields.io/pypi/pyversions/unicorn_trading_suite.svg)](https://www.python.org/downloads/)
 [![PyPI - Status](https://img.shields.io/pypi/status/unicorn_trading_suite.svg)](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/issues)
-[![codecov](https://codecov.io/gh/LUCIT-Systems-and-Development/unicorn-trading-suite/branch/master/graph/badge.svg?token=5I03AZ3F5S)](https://codecov.io/gh/LUCIT-Systems-and-Development/unicorn-trading-suite)
-[![CodeQL](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/codeql-analysis.yml)
 [![Unit Tests](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/unit-tests.yml)
 [![Build and Publish GH+PyPi](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/build_wheels.yml/badge.svg)](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/build_wheels.yml)
 [![Build and Publish Anaconda](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/build_conda.yml/badge.svg)](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/build_conda.yml)
@@ -18,10 +14,7 @@
 [![Read How To`s](https://img.shields.io/badge/read-%20howto-yellow)](https://medium.lucit.tech)
 [![GitHub](https://img.shields.io/badge/source-github-cbc2c8)](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite)
 [![Telegram](https://img.shields.io/badge/community-telegram-41ab8c)](https://t.me/unicorndevs)
-[![Gitter](https://img.shields.io/badge/community-gitter-41ab8c)](https://gitter.im/unicorn-trading-suite/unicorn-trading-suite)
 [![Get Free Professional Support](https://img.shields.io/badge/chat-lucit%20support-004166)](https://www.lucit.tech/get-support.html)
-
-[![LUCIT-UBS-Banner](https://raw.githubusercontent.com/LUCIT-Systems-and-Development/unicorn-trading-suite/master/images/logo/LUCIT-UBS-Banner-Readme.png)](https://www.lucit.tech/unicorn-trading-suite.html)
 
 # UNICORN Trading Suite
 [Description](#description) | [Installation](#installation-and-upgrade) | [How To](#howto) | [Change Log](#change-log) | 
@@ -31,14 +24,8 @@
 ## Description
 LUCIT's [`UNICORN Trading Suite`](https://www.lucit.tech/unicorn-trading-suite.html) is a comprehensive collection of open-source Python packages designed for 
 building sophisticated automated trading systems. Tailored for Python developers, this suite offers seamless 
-integration with the Binance API, enabling the creation of advanced and professional trading bots for streamlined and 
-efficient cryptocurrency trading.
-
-The suite is the most stable, powerful and convenient way to interact with various Binance API endpoints via 
-[REST](https://www.lucit.tech/unicorn-binance-rest-api.html) and 
-[Websocket](https://www.lucit.tech/unicorn-binance-websocket-api.html) and to 
-[manage local order books](https://www.lucit.tech/unicorn-binance-local-depth-cache.html) and 
-[trailing stop losses](https://www.lucit.tech/unicorn-binance-trailing-stop-loss.html).
+integration with various crypto exchange APIs, enabling the creation of advanced and professional trading bots for 
+streamlined and efficient cryptocurrency trading.
 
 All libraries in the suite are coordinated with each other, interlock perfectly, are fully documented and offer 
 standardized interfaces and tools for the programmer. LUCIT continuously develops the modules, fixes bugs, tests the 
@@ -54,18 +41,27 @@ architecture and Python version used.
 [Get help](https://www.lucit.tech/get-support.html) with the integration of the `UNICORN Trading Suite` modules!
 
 ## Modules of the UNICORN Trading Suite
+We currently only offer full support for Binance. However, we have started to integrate other top 10 exchanges 
+(ByBit, HTX, ...). Step by step we will be able to announce new support here!
 
-- [`UNICORN Binance Local Depth Cache`](https://www.lucit.tech/unicorn-binance-local-depth-cache.html): A Python SDK from LUCIT to access and manage multiple local Binance 
-  DepthCaches with Python in a simple, fast, flexible, robust and fully-featured way. 
+### [UNICORN Trading Suite for Binance](https://www.lucit.tech/unicorn-binance-suite.html)
+- [`UNICORN Binance Local Depth Cache`](https://www.lucit.tech/unicorn-binance-local-depth-cache.html): A Python SDK 
+  from LUCIT to access and manage multiple local Binance DepthCaches with Python in a simple, fast, flexible, robust 
+  and fully-featured way. 
 - [`UNICORN Binance REST API`](https://www.lucit.tech/unicorn-binance-rest-api.html): A Python SDK by LUCIT to use the Binance REST API`s (com+testnet, 
   com-margin+testnet, com-isolated_margin+testnet, com-futures+testnet, us, tr) in a simple, fast, flexible, robust 
   and fully-featured way. 
-- [`UNICORN Binance Trailing Stop Loss`](https://www.lucit.tech/unicorn-binance-trailing-stop-loss.html): A Trailing Stop Loss Python Lib and [Command Line Tool](https://www.lucit.tech/ubtsl-cli.html).
+- [`UNICORN Binance Trailing Stop Loss`](https://www.lucit.tech/unicorn-binance-trailing-stop-loss.html): A Python SDK and [Command Line Tool](https://www.lucit.tech/ubtsl-cli.html) 
+  from LUCIT with a trailing stop loss engine for the Binance Exchanges.
 - [`UNICORN Binance WebSocket API`](https://www.lucit.tech/unicorn-binance-websocket-api.html): A Python SDK by LUCIT to use the Binance Websocket API`s (com+testnet, 
   com-margin+testnet, com-isolated_margin+testnet, com-futures+testnet, com-coin_futures, us, tr, dex/chain+testnet) in 
   a simple, fast, flexible, robust and fully-featured way. 
 - [`UnicornFy`](https://www.lucit.tech/unicorn-fy.html): A Python SDK by LUCIT to convert received raw data from crypto exchange API endpoints into 
   well-formed python dictionaries. 
+
+### UNICORN Trading Suite for ByBit
+- [`UNICORN ByBit WebSocket API`](https://www.lucit.tech/unicorn-bybit-websocket-api.html): A Python SDK by LUCIT to use 
+  the ByBit Websocket API`s in a simple, fast, flexible, robust and fully-featured way. 
 
 If you like our projects, please 
 [![star](https://raw.githubusercontent.com/lucit-systems-and-development/unicorn-trading-suite/master/images/misc/star.png)](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/stargazers) them on 
@@ -75,9 +71,31 @@ If you like our projects, please
 
 To run modules of the *UNICORN Trading Suite* you need a [valid license](https://medium.lucit.tech/how-to-obtain-and-use-a-unicorn-trading-suite-license-key-and-run-the-ubs-module-according-to-best-87b0088124a8#4ca4)!
 
+## UNICORN Trading Suite comparison
+It is not easy to choose the right solution from those available. With this table, we would like to help you get an 
+objective overview and simplify the selection of the right tool:
+
+| **Feature/Criteria**                     | **Binance Connector**                                           | **python-binance**                                                          | **UNICORN Trading Suite**                                                                 | **CCXT/CCXT Pro**                                                                                                         |
+|------------------------------------------|-----------------------------------------------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| **REST API Support**                     | Yes, full support                                               | Yes, full support                                                           | Yes, full support                                                                         | Yes, supports REST for Binance and many other exchanges                                                                   |
+| **WebSocket Streams**                    | Yes, for market data and user data streams                      | Yes, including new WebSocket trading API for orders and trading commands    | Yes, including new WebSocket trading API for orders and trading commands                  | Yes, CCXT Pro                                                                                                             | 
+| **Trading via WebSocket**                | No, REST API only                                               | Yes                                                                         | Yes, via UBWA, specifically developed and maintained by LUCIT                             | Yes, CCXT Pro                                                                                                             |
+| **Asynchronous Processing**              | Yes, supports async functions                                   | Partially, limited support                                                  | Yes, full `asyncio` integration in UBWA and UBLDC                                         | Yes, asynchronous, optimized for real-time applications                                                                   |
+| **Official Support**                     | Yes, official Binance project                                   | No, community-driven                                                        | No, but continuously maintained and supported by LUCIT                                    | No, community-driven                                                                                                      |
+| **Maintenance and Updates**              | Regular updates and maintenance by Binance                      | Depends on community contributions                                          | Regular updates by LUCIT, quickly adapting to API changes                                 | Regular updates, dependent on community and external exchanges                                                            |
+| **UnicornFy Data Formatting**            | Not available                                                   | Not available                                                               | Yes, via UnicornFy for consistent data structuring, developed by LUCIT                    | Not available                                                                                                             |
+| **Depth Caches (Order Book Storage)**    | Basic depth via WebSocket available                             | Includes a basic depth cache manager but may be limited for advanced needs. | Yes, UBLDC provides specialized management for order book depth, developed by LUCIT       | CCXT: No specialized order book management; CCXT Pro: Basic depth via WebSocket available, without specialized management |
+| **Depth Cache Cluster**                  | Not available                                                   | Not available                                                               | Yes, via UNICORN DepthCache Cluster for Binance for complex order book cluster management | Not available                                                                                                             |
+| **Trailing Stop-Loss**                   | Not natively, only manually via REST                            | Not natively, only manually via REST                                        | Yes, via Trailing Stop Order module, automated, maintained by LUCIT                       | Not natively supported, only manually via REST                                                                            |
+| **Multi-Exchange Support**               | Binance only                                                    | Binance only                                                                | Binance, Bybit, and top exchanges in progress                                             | Yes, supports multiple exchanges                                                                                          |
+| **Configuration Complexity**             | Simple, unified configuration                                   | Simple, unified configuration                                               | Modular, each component can be selectively deployed                                       | Simple, unified configuration, ideal for multi-exchange setups                                                            |
+| **Community and Support**                | Official support from Binance                                   | Large community support                                                     | Specialized community and support (SLA), continuous development by LUCIT                  | Large, active community                                                                                                   |
+| **Ideal For**                            | Developers looking for an officially supported library          | General Binance applications and REST trading                               | High-frequency trading, advanced order book processing, multi-asset monitoring            | Multi-exchange trading and data querying via a unified API                                                                |
+
+
 ## Installation and Upgrade
 
-The modules require Python 3.7 or above, as they depend on Pythons latest asyncio features for asynchronous/concurrent 
+The modules require Python 3.8 or above, as they depend on Pythons latest asyncio features for asynchronous/concurrent 
 processing. 
 
 For the PyPy interpreter we offer packages only from Python version 3.9 and higher.
@@ -145,10 +163,10 @@ Run in bash:
 `pip install https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/archive/$(curl -s https://api.github.com/repos/LUCIT-Systems-and-Development/unicorn-trading-suite/releases/latest | grep -oP '"tag_name": "\K(.*)(?=")').tar.gz --upgrade`
 
 #### Windows
-Use the below command with the version (such as 2.0.0) you determined 
+Use the below command with the version (such as 1.0.0) you determined 
 [here](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/releases/latest):
 
-`pip install https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/archive/2.0.0.tar.gz --upgrade`
+`pip install https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/archive/1.0.0.tar.gz --upgrade`
 
 ### From the latest source (dev-stage) with PIP from [GitHub](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite)
 This is not a release version and can not be considered to be stable!
