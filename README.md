@@ -7,8 +7,6 @@
 [![License](https://img.shields.io/badge/license-LSOSL-blue)](https://unicorn-trading-suite.docs.lucit.tech/license.html)
 [![Supported Python Version](https://img.shields.io/pypi/pyversions/unicorn_trading_suite.svg)](https://www.python.org/downloads/)
 [![PyPI - Status](https://img.shields.io/pypi/status/unicorn_trading_suite.svg)](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/issues)
-[![codecov](https://codecov.io/gh/LUCIT-Systems-and-Development/unicorn-trading-suite/branch/master/graph/badge.svg?token=5I03AZ3F5S)](https://codecov.io/gh/LUCIT-Systems-and-Development/unicorn-trading-suite)
-[![CodeQL](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/codeql-analysis.yml)
 [![Unit Tests](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/unit-tests.yml)
 [![Build and Publish GH+PyPi](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/build_wheels.yml/badge.svg)](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/build_wheels.yml)
 [![Build and Publish Anaconda](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/build_conda.yml/badge.svg)](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/build_conda.yml)
