@@ -1,0 +1,14 @@
+blank_issues_enabled: true
+contact_links:
+  - name: UNICORN Devs Chat
+    url: https://t.me/unicorndevs
+    about: Chat to us about the UNICORN Trading Suite and ask general questions.
+  - name: UNICORN Trading Suite Discussions
+    url: https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/discussions
+    about: Ask general questions.
+  - name: UNICORN Trading Suite documentation
+    url: https://unicorn-trading-suite.docs.lucit.tech/
+    about: The complete UNICORN Trading Suite documentation.
+  - name: Get Professional and Fast Support
+    url: https://www.lucit.tech/get-support.html
+    about: Contact the LUCIT Development Team.

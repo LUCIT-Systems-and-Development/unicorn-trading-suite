@@ -1,5 +1,3 @@
-[![Get a UNICORN Trading Suite License](https://raw.githubusercontent.com/LUCIT-Systems-and-Development/unicorn-trading-suite/master/images/logo/LUCIT-UBS-License-Offer.png)](https://shop.lucit.services)
-
 [![GitHub Release](https://img.shields.io/github/release/LUCIT-Systems-and-Development/unicorn-trading-suite.svg?label=github)](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/releases)
 [![GitHub Downloads](https://img.shields.io/github/downloads/LUCIT-Systems-and-Development/unicorn-trading-suite/total?color=blue)](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/releases)
 ![Anaconda Release](https://img.shields.io/conda/v/lucit/unicorn-trading-suite?color=blue)
@@ -18,10 +16,7 @@
 [![Read How To`s](https://img.shields.io/badge/read-%20howto-yellow)](https://medium.lucit.tech)
 [![GitHub](https://img.shields.io/badge/source-github-cbc2c8)](https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite)
 [![Telegram](https://img.shields.io/badge/community-telegram-41ab8c)](https://t.me/unicorndevs)
-[![Gitter](https://img.shields.io/badge/community-gitter-41ab8c)](https://gitter.im/unicorn-trading-suite/unicorn-trading-suite)
 [![Get Free Professional Support](https://img.shields.io/badge/chat-lucit%20support-004166)](https://www.lucit.tech/get-support.html)
-
-[![LUCIT-UTS-Banner](https://raw.githubusercontent.com/LUCIT-Systems-and-Development/unicorn-trading-suite/master/images/logo/LUCIT-UBS-Banner-Readme.png)](https://www.lucit.tech/unicorn-trading-suite.html)
 
 # UNICORN Trading Suite
 [Description](#description) | [Installation](#installation-and-upgrade) | [How To](#howto) | [Change Log](#change-log) | 
