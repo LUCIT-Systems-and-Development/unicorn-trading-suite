@@ -41,10 +41,13 @@ architecture and Python version used.
 [Get help](https://www.lucit.tech/get-support.html) with the integration of the `UNICORN Trading Suite` modules!
 
 ## Modules of the UNICORN Trading Suite
+We currently only offer full support for Binance. However, we have started to integrate other top 10 exchanges 
+(ByBit, HTX, ...). Step by step we will be able to announce new support here!
 
 ### [UNICORN Trading Suite for Binance](https://www.lucit.tech/unicorn-binance-suite.html)
-- [`UNICORN Binance Local Depth Cache`](https://www.lucit.tech/unicorn-binance-local-depth-cache.html): A Python SDK from LUCIT to access and manage multiple local Binance 
-  DepthCaches with Python in a simple, fast, flexible, robust and fully-featured way. 
+- [`UNICORN Binance Local Depth Cache`](https://www.lucit.tech/unicorn-binance-local-depth-cache.html): A Python SDK 
+  from LUCIT to access and manage multiple local Binance DepthCaches with Python in a simple, fast, flexible, robust 
+  and fully-featured way. 
 - [`UNICORN Binance REST API`](https://www.lucit.tech/unicorn-binance-rest-api.html): A Python SDK by LUCIT to use the Binance REST API`s (com+testnet, 
   com-margin+testnet, com-isolated_margin+testnet, com-futures+testnet, us, tr) in a simple, fast, flexible, robust 
   and fully-featured way. 
@@ -68,7 +71,28 @@ If you like our projects, please
 
 To run modules of the *UNICORN Trading Suite* you need a [valid license](https://medium.lucit.tech/how-to-obtain-and-use-a-unicorn-trading-suite-license-key-and-run-the-ubs-module-according-to-best-87b0088124a8#4ca4)!
 
-## Comparing with others
+## UNICORN Trading Suite comparison
+It is not easy to choose the right solution from those available. With this table, we would like to help you get an 
+objective overview and simplify the selection of the right tool:
+
+| **Funktion/Kriterium**                   | **Binance Connector**                                           | **python-binance**                                               | **UNICORN Binance Suite** (UBWA, UBLDC, UnicornFy)               | **CCXT**                                                          | **CCXT Pro**                                                      |
+|------------------------------------------|-----------------------------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------|------------------------------------------------------------------|
+| **REST-API-Unterstützung**               | Ja, vollständige Unterstützung                                  | Ja, vollständige Unterstützung                                   | Ja, vollständige Unterstützung über das REST API Wrapper, gepflegt von LUCIT | Ja, unterstützt REST für Binance und viele andere Börsen         | Ja, wie CCXT                                                      |
+| **WebSocket-Streams**                    | Ja, für Marktdaten und User Data Streams                        | Ja, für Marktdaten und User Data Streams                         | Ja, inkl. neuer WebSocket-Trading-API für Orderaufträge und Trading-Befehle | Nein, CCXT unterstützt keine WebSockets                          | Ja, WebSocket-Unterstützung für bestimmte Börsen, inkl. Binance  |
+| **Trading über WebSocket**               | Nein, nur über REST-API                                         | Nein, nur über REST-API                                          | Ja, durch UBWA, speziell entwickelt und gewartet von LUCIT       | Nein, nur REST                                                   | Ja, bei unterstützten Börsen, inkl. Binance                      |
+| **Asynchrone Verarbeitung**              | Ja, unterstützt asynchrone Funktionen                           | Teilweise, begrenzte Unterstützung                               | Ja, vollständige `asyncio`-Integration in UBWA und UBLDC         | Nein, synchron ausgelegt (kann jedoch in async-Umgebungen integriert werden) | Ja, asynchron, optimiert für Echtzeitanwendungen                 |
+| **Offizielle Unterstützung**             | Ja, offizielles Binance-Projekt                                 | Nein, Community-getrieben                                        | Nein, aber kontinuierliche Wartung und Support durch LUCIT       | Nein, Community-getrieben                                        | Nein, Community-getrieben                                        |
+| **Aktualität und Wartung**               | Regelmäßige Updates und Wartung durch Binance                   | Abhängig von Community-Beiträgen                                 | Regelmäßige Updates durch LUCIT, schnell angepasst an API-Änderungen | Regelmäßige Updates, aber abhängig von Community und externen Börsen | Regelmäßige Updates, abhängig von Community und externen Börsen |
+| **UnicornFy Datenformatierung**          | Nicht verfügbar                                                 | Nicht verfügbar                                                  | Ja, über UnicornFy für konsistente Datenstrukturierung, entwickelt von LUCIT | Nicht verfügbar                                                  | Nicht verfügbar                                                  |
+| **Depth Caches (Orderbuch-Speicher)**    | Basis-Tiefe über WebSocket verfügbar                            | Basis-Tiefe über WebSocket verfügbar                             | Ja, UBLDC bietet spezialisiertes Management für Orderbuch-Tiefen, von LUCIT entwickelt | Nein, keine spezialisierte Orderbuch-Verwaltung                 | Basis-Tiefe über WebSocket verfügbar, jedoch ohne spezialisierte Verwaltung |
+| **Depth Cache Cluster**                  | Nicht vorhanden                                                 | Nicht vorhanden                                                  | Ja, durch UBLDC für komplexe Orderbuch-Cluster-Verwaltung        | Nicht vorhanden                                                   | Nicht vorhanden                                                   |
+| **Trailing Stop-Loss**                   | Nicht nativ, nur manuell über REST                              | Nicht nativ, nur manuell über REST                               | Ja, durch das Trailing Stop Order Modul, automatisiert, von LUCIT gewartet  | Nicht nativ unterstützt, nur manuell über REST möglich           | Nicht nativ unterstützt, nur manuell über REST möglich           |
+| **Multi-Exchange-Unterstützung**         | Nur Binance                                                     | Nur Binance                                                      | Nur Binance                                                      | Ja, unterstützt viele Kryptobörsen                               | Ja, unterstützt viele Kryptobörsen                               |
+| **Komplexität der Konfiguration**        | Einfache, einheitliche Konfiguration                            | Einfache, einheitliche Konfiguration                             | Modular, jede Komponente kann gezielt eingesetzt werden           | Einfache, einheitliche Konfiguration, speziell für Multi-Exchange | Einfache, einheitliche Konfiguration, speziell für Multi-Exchange |
+| **Community und Support**                | Offizieller Support durch Binance                               | Große Community-Unterstützung                                    | Spezialisierte Community und Support, kontinuierliche Entwicklung durch LUCIT | Große, aktive Community                                          | Große, aktive Community                                          |
+| **Ideal für**                            | Entwickler, die eine offiziell unterstützte Bibliothek suchen   | Allgemeine Binance-Anwendungen und REST-Trading                  | Hochfrequenz-Trading, fortgeschrittene Orderbuch-Verarbeitung, Multi-Asset-Überwachung | Multi-Exchange-Trading und -Datenabfragen über eine einheitliche API | Multi-Exchange-Trading mit Echtzeit-Streaming und Orderaufträgen |
+
+
 
 ## Installation and Upgrade
 
