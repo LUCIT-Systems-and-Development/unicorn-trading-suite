@@ -72,8 +72,8 @@ If you like our projects, please
 To run modules of the *UNICORN Trading Suite* you need a [valid license](https://medium.lucit.tech/how-to-obtain-and-use-a-unicorn-trading-suite-license-key-and-run-the-ubs-module-according-to-best-87b0088124a8#4ca4)!
 
 ## UNICORN Trading Suite comparison
-It is not easy to choose the right solution from those available. With this table, we would like to help you get an 
-objective overview and simplify the selection of the right tool:
+It is not easy to choose the right Python library to build your trading system. With this table we would like to help 
+you get an objective overview and simplify the selection of the right package:
 
 | **Feature/Criteria**                     | **Binance Connector**                                           | **python-binance**                                                          | **UNICORN Trading Suite**                                                                             | **CCXT/CCXT Pro**                                                             |
 |------------------------------------------|-----------------------------------------------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
