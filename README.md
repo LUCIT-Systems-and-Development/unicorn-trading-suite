@@ -42,7 +42,7 @@ architecture and Python version used.
 
 ## Modules of the UNICORN Trading Suite
 
-### [UNICORN Trading Suite for Binance](https://www.lucit.tech/unicorn-binance-suite.html):
+### [UNICORN Trading Suite for Binance](https://www.lucit.tech/unicorn-binance-suite.html)
 - [`UNICORN Binance Local Depth Cache`](https://www.lucit.tech/unicorn-binance-local-depth-cache.html): A Python SDK from LUCIT to access and manage multiple local Binance 
   DepthCaches with Python in a simple, fast, flexible, robust and fully-featured way. 
 - [`UNICORN Binance REST API`](https://www.lucit.tech/unicorn-binance-rest-api.html): A Python SDK by LUCIT to use the Binance REST API`s (com+testnet, 
@@ -56,6 +56,7 @@ architecture and Python version used.
 - [`UnicornFy`](https://www.lucit.tech/unicorn-fy.html): A Python SDK by LUCIT to convert received raw data from crypto exchange API endpoints into 
   well-formed python dictionaries. 
 
+### UNICORN Trading Suite for ByBit
 - [`UNICORN ByBit WebSocket API`](https://www.lucit.tech/unicorn-bybit-websocket-api.html): A Python SDK by LUCIT to use 
   the ByBit Websocket API`s in a simple, fast, flexible, robust and fully-featured way. 
 
