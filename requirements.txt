@@ -1,0 +1,11 @@
+# Changes must also be made in the following files:
+# ./environment.yml
+# ./meta.yaml
+# ./pyproject.toml
+# ./setup.py
+
+unicorn-fy>=0.13.1
+unicorn-binance-local-depth-cache>=1.0.0
+unicorn-binance-rest-api>=2.1.2
+unicorn-binance-trailing-stop-loss>=1.0.0
+unicorn-binance-websocket-api>=2.1.2
