@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to unicorn-trading-suite's documentation!
-=========================================================
+=================================================
 
 .. toctree::
    :maxdepth: 3

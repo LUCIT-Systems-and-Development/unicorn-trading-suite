@@ -3,9 +3,9 @@
 <html lang="en" data-content_root="./">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>UNICORN Trading Suite &#8212; unicorn-trading-suite 2.0.0 documentation</title><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNICORN Trading Suite &#8212; unicorn-trading-suite 1.0.0 documentation</title><meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=92fd9be5" />
     <link rel="stylesheet" type="text/css" href="_static/pydoctheme.css?v=fdf8e9ae" />
@@ -50,7 +50,7 @@
             <p class="logo">
                 <div style="text-align: center;">
                     <a href="https://www.lucit.tech"><img src="https://www.lucit.tech/files/images/logos/LUCIT-LOGO.png"></a><br>
-                    <a href="https://shop.lucit.services/software/unicorn-trading-suite" style="font-size: 0.85em;font-weight: 900">Get a UNICORN Trading Suite License!</a><br>
+                    <a href="https://shop.lucit.services/software/unicorn-binance-suite" style="font-size: 0.85em;font-weight: 900">Get a UNICORN Binance Suite License!</a><br>
                     <br>
                     <a href="https://github.com/LUCIT-Systems-and-Development" target="_blank" style="text-decoration:none;"><img src="_static/icons8-github-20.png"></a>
                     <a href="https://fb.me/lucit.systems.and.development" target="_blank" style="text-decoration:none;"><img src="_static/icons8-facebook-20.png"></a>
@@ -66,8 +66,13 @@
     <ul>
 <li><a class="reference internal" href="#">UNICORN Trading Suite</a><ul>
 <li><a class="reference internal" href="#description">Description</a></li>
-<li><a class="reference internal" href="#modules-of-the-unicorn-trading-suite">Modules of the UNICORN Trading Suite</a></li>
+<li><a class="reference internal" href="#modules-of-the-unicorn-trading-suite">Modules of the UNICORN Trading Suite</a><ul>
+<li><a class="reference internal" href="#unicorn-trading-suite-for-binance">UNICORN Trading Suite for Binance</a></li>
+<li><a class="reference internal" href="#unicorn-trading-suite-for-bybit">UNICORN Trading Suite for ByBit</a></li>
+</ul>
+</li>
 <li><a class="reference internal" href="#get-a-unicorn-trading-suite-license">Get a UNICORN Trading Suite License</a></li>
+<li><a class="reference internal" href="#unicorn-trading-suite-comparison">UNICORN Trading Suite comparison</a></li>
 <li><a class="reference internal" href="#installation-and-upgrade">Installation and Upgrade</a><ul>
 <li><a class="reference internal" href="#packages-are-created-automatically-with-github-actions">Packages are created automatically with GitHub Actions</a></li>
 <li><a class="reference internal" href="#a-cython-binary-pypy-or-source-code-based-cpython-wheel-of-the-latest-version-with-pip-from-pypi">A Cython binary, PyPy or source code based CPython wheel of the latest version with <code class="docutils literal notranslate"><span class="pre">pip</span></code> from PyPI</a><ul>
@@ -166,7 +171,7 @@
     </div>
 </div>
   
-    <div class="related" role="navigation" aria-label="related navigation">
+    <div class="related" role="navigation" aria-label="Related">
       <h3>Navigation</h3>
       <ul>
         <li class="right" style="margin-right: 10px">
@@ -213,8 +218,7 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <p><a class="reference external" href="https://shop.lucit.services"><img alt="Get a UNICORN Trading Suite License" src="https://raw.githubusercontent.com/LUCIT-Systems-and-Development/unicorn-trading-suite/master/images/logo/LUCIT-UBS-License-Offer.png" /></a></p>
-<p><a class="reference external" href="https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/releases"><img alt="GitHub Release" src="https://img.shields.io/github/release/LUCIT-Systems-and-Development/unicorn-trading-suite.svg?label=github" /></a>
+  <p><a class="reference external" href="https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/releases"><img alt="GitHub Release" src="https://img.shields.io/github/release/LUCIT-Systems-and-Development/unicorn-trading-suite.svg?label=github" /></a>
 <a class="reference external" href="https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/releases"><img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/LUCIT-Systems-and-Development/unicorn-trading-suite/total?color=blue" /></a>
 <img alt="Anaconda Release" src="https://img.shields.io/conda/v/lucit/unicorn-trading-suite?color=blue" />
 <img alt="Anaconda Downloads" src="https://img.shields.io/conda/dn/lucit/unicorn-trading-suite?color=blue" />
@@ -223,8 +227,6 @@
 <a class="reference external" href="https://unicorn-trading-suite.docs.lucit.tech/license.html"><img alt="License" src="https://img.shields.io/badge/license-LSOSL-blue" /></a>
 <a class="reference external" href="https://www.python.org/downloads/"><img alt="Supported Python Version" src="https://img.shields.io/pypi/pyversions/unicorn_trading_suite.svg" /></a>
 <a class="reference external" href="https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/issues"><img alt="PyPI - Status" src="https://img.shields.io/pypi/status/unicorn_trading_suite.svg" /></a>
-<a class="reference external" href="https://codecov.io/gh/LUCIT-Systems-and-Development/unicorn-trading-suite"><img alt="codecov" src="https://codecov.io/gh/LUCIT-Systems-and-Development/unicorn-trading-suite/branch/master/graph/badge.svg?token=5I03AZ3F5S" /></a>
-<a class="reference external" href="https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/codeql-analysis.yml"><img alt="CodeQL" src="https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/codeql-analysis.yml/badge.svg" /></a>
 <a class="reference external" href="https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/unit-tests.yml"><img alt="Unit Tests" src="https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/unit-tests.yml/badge.svg" /></a>
 <a class="reference external" href="https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/build_wheels.yml"><img alt="Build and Publish GH+PyPi" src="https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/build_wheels.yml/badge.svg" /></a>
 <a class="reference external" href="https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/build_conda.yml"><img alt="Build and Publish Anaconda" src="https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/actions/workflows/build_conda.yml/badge.svg" /></a>
@@ -232,9 +234,7 @@
 <a class="reference external" href="https://medium.lucit.tech"><img alt="Read How To`s" src="https://img.shields.io/badge/read-%20howto-yellow" /></a>
 <a class="reference external" href="https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite"><img alt="GitHub" src="https://img.shields.io/badge/source-github-cbc2c8" /></a>
 <a class="reference external" href="https://t.me/unicorndevs"><img alt="Telegram" src="https://img.shields.io/badge/community-telegram-41ab8c" /></a>
-<a class="reference external" href="https://gitter.im/unicorn-trading-suite/unicorn-trading-suite"><img alt="Gitter" src="https://img.shields.io/badge/community-gitter-41ab8c" /></a>
 <a class="reference external" href="https://www.lucit.tech/get-support.html"><img alt="Get Free Professional Support" src="https://img.shields.io/badge/chat-lucit%20support-004166" /></a></p>
-<p><a class="reference external" href="https://www.lucit.tech/unicorn-trading-suite.html"><img alt="LUCIT-UBS-Banner" src="https://raw.githubusercontent.com/LUCIT-Systems-and-Development/unicorn-trading-suite/master/images/logo/LUCIT-UBS-Banner-Readme.png" /></a></p>
 <section id="unicorn-trading-suite">
 <h1>UNICORN Trading Suite<a class="headerlink" href="#unicorn-trading-suite" title="Link to this heading">¶</a></h1>
 <p><a class="reference internal" href="#description">Description</a> | <a class="reference internal" href="#installation-and-upgrade">Installation</a> | <a class="reference internal" href="#howto">How To</a> | <a class="reference internal" href="#change-log">Change Log</a> |
@@ -242,15 +242,10 @@
 <a class="reference internal" href="#contributing">Contributing</a> | <a class="reference internal" href="#disclaimer">Disclaimer</a> | <a class="reference internal" href="#commercial-support">Commercial Support</a></p>
 <section id="description">
 <h2>Description<a class="headerlink" href="#description" title="Link to this heading">¶</a></h2>
-<p>LUCIT’s <a class="reference external" href="https://www.lucit.tech/unicorn-trading-suite.html"><code class="docutils literal notranslate"><span class="pre">UNICORN</span> <span class="pre">Binance</span> <span class="pre">Suite</span></code></a> is a comprehensive collection of open-source Python packages designed for
+<p>LUCIT’s <a class="reference external" href="https://www.lucit.tech/unicorn-trading-suite.html"><code class="docutils literal notranslate"><span class="pre">UNICORN</span> <span class="pre">Trading</span> <span class="pre">Suite</span></code></a> is a comprehensive collection of open-source Python packages designed for
 building sophisticated automated trading systems. Tailored for Python developers, this suite offers seamless
-integration with the Binance API, enabling the creation of advanced and professional trading bots for streamlined and
-efficient cryptocurrency trading.</p>
-<p>The suite is the most stable, powerful and convenient way to interact with various Binance API endpoints via
-<a class="reference external" href="https://www.lucit.tech/unicorn-binance-rest-api.html">REST</a> and
-<a class="reference external" href="https://www.lucit.tech/unicorn-binance-websocket-api.html">Websocket</a> and to
-<a class="reference external" href="https://www.lucit.tech/unicorn-binance-local-depth-cache.html">manage local order books</a> and
-<a class="reference external" href="https://www.lucit.tech/unicorn-binance-trailing-stop-loss.html">trailing stop losses</a>.</p>
+integration with various crypto exchange APIs, enabling the creation of advanced and professional trading bots for
+streamlined and efficient cryptocurrency trading.</p>
 <p>All libraries in the suite are coordinated with each other, interlock perfectly, are fully documented and offer
 standardized interfaces and tools for the programmer. LUCIT continuously develops the modules, fixes bugs, tests the
 libraries extensively and offers <a class="reference external" href="https://www.lucit.tech/get-support.html">fast, direct and free support</a>.</p>
@@ -260,34 +255,185 @@ creation runs completely transparently directly from the respective GitHub repos
 deployed directly to PyPi and Anaconda in a traceable manner. This process makes it tamper-proof for you to
 understand which code is contained in which package and can therefore easily install optimized builds for the platform,
 architecture and Python version used.</p>
-<p><a class="reference external" href="https://www.lucit.tech/get-support.html">Get help</a> with the integration of the <code class="docutils literal notranslate"><span class="pre">UNICORN</span> <span class="pre">Binance</span> <span class="pre">Suite</span></code> modules!</p>
+<p><a class="reference external" href="https://www.lucit.tech/get-support.html">Get help</a> with the integration of the <code class="docutils literal notranslate"><span class="pre">UNICORN</span> <span class="pre">Trading</span> <span class="pre">Suite</span></code> modules!</p>
 </section>
 <section id="modules-of-the-unicorn-trading-suite">
 <h2>Modules of the UNICORN Trading Suite<a class="headerlink" href="#modules-of-the-unicorn-trading-suite" title="Link to this heading">¶</a></h2>
+<p>We currently only offer full support for Binance. However, we have started to integrate other top 10 exchanges
+(ByBit, HTX, …). Step by step we will be able to announce new support here!</p>
+<section id="unicorn-trading-suite-for-binance">
+<h3><a class="reference external" href="https://www.lucit.tech/unicorn-binance-suite.html">UNICORN Trading Suite for Binance</a><a class="headerlink" href="#unicorn-trading-suite-for-binance" title="Link to this heading">¶</a></h3>
 <ul class="simple">
-<li><p><a class="reference external" href="https://www.lucit.tech/unicorn-binance-local-depth-cache.html"><code class="docutils literal notranslate"><span class="pre">UNICORN</span> <span class="pre">Binance</span> <span class="pre">Local</span> <span class="pre">Depth</span> <span class="pre">Cache</span></code></a>: A Python SDK from LUCIT to access and manage multiple local Binance
-DepthCaches with Python in a simple, fast, flexible, robust and fully-featured way.</p></li>
+<li><p><a class="reference external" href="https://www.lucit.tech/unicorn-binance-local-depth-cache.html"><code class="docutils literal notranslate"><span class="pre">UNICORN</span> <span class="pre">Binance</span> <span class="pre">Local</span> <span class="pre">Depth</span> <span class="pre">Cache</span></code></a>: A Python SDK
+from LUCIT to access and manage multiple local Binance DepthCaches with Python in a simple, fast, flexible, robust
+and fully-featured way.</p></li>
 <li><p><a class="reference external" href="https://www.lucit.tech/unicorn-binance-rest-api.html"><code class="docutils literal notranslate"><span class="pre">UNICORN</span> <span class="pre">Binance</span> <span class="pre">REST</span> <span class="pre">API</span></code></a>: A Python SDK by LUCIT to use the Binance REST API`s (com+testnet,
 com-margin+testnet, com-isolated_margin+testnet, com-futures+testnet, us, tr) in a simple, fast, flexible, robust
 and fully-featured way.</p></li>
-<li><p><a class="reference external" href="https://www.lucit.tech/unicorn-binance-trailing-stop-loss.html"><code class="docutils literal notranslate"><span class="pre">UNICORN</span> <span class="pre">Binance</span> <span class="pre">Trailing</span> <span class="pre">Stop</span> <span class="pre">Loss</span></code></a>: A Trailing Stop Loss Python Lib and <a class="reference external" href="https://www.lucit.tech/ubtsl-cli.html">Command Line Tool</a>.</p></li>
+<li><p><a class="reference external" href="https://www.lucit.tech/unicorn-binance-trailing-stop-loss.html"><code class="docutils literal notranslate"><span class="pre">UNICORN</span> <span class="pre">Binance</span> <span class="pre">Trailing</span> <span class="pre">Stop</span> <span class="pre">Loss</span></code></a>: A Python SDK and <a class="reference external" href="https://www.lucit.tech/ubtsl-cli.html">Command Line Tool</a>
+from LUCIT with a trailing stop loss engine for the Binance Exchanges.</p></li>
 <li><p><a class="reference external" href="https://www.lucit.tech/unicorn-binance-websocket-api.html"><code class="docutils literal notranslate"><span class="pre">UNICORN</span> <span class="pre">Binance</span> <span class="pre">WebSocket</span> <span class="pre">API</span></code></a>: A Python SDK by LUCIT to use the Binance Websocket API`s (com+testnet,
 com-margin+testnet, com-isolated_margin+testnet, com-futures+testnet, com-coin_futures, us, tr, dex/chain+testnet) in
 a simple, fast, flexible, robust and fully-featured way.</p></li>
 <li><p><a class="reference external" href="https://www.lucit.tech/unicorn-fy.html"><code class="docutils literal notranslate"><span class="pre">UnicornFy</span></code></a>: A Python SDK by LUCIT to convert received raw data from crypto exchange API endpoints into
 well-formed python dictionaries.</p></li>
 </ul>
+</section>
+<section id="unicorn-trading-suite-for-bybit">
+<h3>UNICORN Trading Suite for ByBit<a class="headerlink" href="#unicorn-trading-suite-for-bybit" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.lucit.tech/unicorn-bybit-websocket-api.html"><code class="docutils literal notranslate"><span class="pre">UNICORN</span> <span class="pre">ByBit</span> <span class="pre">WebSocket</span> <span class="pre">API</span></code></a>: A Python SDK by LUCIT to use
+the ByBit Websocket API`s in a simple, fast, flexible, robust and fully-featured way.</p></li>
+</ul>
 <p>If you like our projects, please
 <a class="reference external" href="https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/stargazers"><img alt="star" src="https://raw.githubusercontent.com/lucit-systems-and-development/unicorn-trading-suite/master/images/misc/star.png" /></a> them on
 <a class="reference external" href="https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite">GitHub</a>!</p>
+</section>
 </section>
 <section id="get-a-unicorn-trading-suite-license">
 <h2>Get a UNICORN Trading Suite License<a class="headerlink" href="#get-a-unicorn-trading-suite-license" title="Link to this heading">¶</a></h2>
 <p>To run modules of the <em>UNICORN Trading Suite</em> you need a <a class="reference external" href="https://medium.lucit.tech/how-to-obtain-and-use-a-unicorn-trading-suite-license-key-and-run-the-ubs-module-according-to-best-87b0088124a8#4ca4">valid license</a>!</p>
 </section>
+<section id="unicorn-trading-suite-comparison">
+<h2>UNICORN Trading Suite comparison<a class="headerlink" href="#unicorn-trading-suite-comparison" title="Link to this heading">¶</a></h2>
+<p>It is not easy to choose the right Python library to build your trading system. With this table we would like to help
+you get an objective overview and simplify the selection of the right package:</p>
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th><strong>Feature/Criteria</strong></th>
+<th><strong>Binance Connector</strong></th>
+<th><strong>python-binance</strong></th>
+<th><strong>UNICORN Trading Suite</strong></th>
+<th><strong>CCXT/CCXT Pro</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>REST API Support</strong></td>
+<td>Yes, full support</td>
+<td>Yes, full support</td>
+<td>Yes, full support</td>
+<td>Yes, supports REST for Binance and many other exchanges</td>
+</tr>
+<tr>
+<td><strong>WebSocket Streams</strong></td>
+<td>Yes, including new WebSocket trading API for orders and trading commands</td>
+<td>Yes, for market data and user data streams</td>
+<td>Yes, including new WebSocket trading API for orders and trading commands and advanced management features</td>
+<td>Yes, CCXT Pro</td>
+</tr>
+<tr>
+<td><strong>Streams Signals</strong></td>
+<td>Not available</td>
+<td>Not available</td>
+<td>Yes</td>
+<td>Not available</td>
+</tr>
+<tr>
+<td><strong>Trading via WebSocket</strong></td>
+<td>Yes</td>
+<td>No, REST API only</td>
+<td>Yes, via UBWA, specifically developed and maintained by LUCIT</td>
+<td>Yes, CCXT Pro</td>
+</tr>
+<tr>
+<td><strong>Asynchronous Processing</strong></td>
+<td>Yes, supports async functions</td>
+<td>Partially, limited support</td>
+<td>Yes, full <code>asyncio</code> integration in UBWA and UBLDC</td>
+<td>Yes, supports async functions</td>
+</tr>
+<tr>
+<td><strong>Official Support</strong></td>
+<td>Yes, official Binance project</td>
+<td>No, community-driven</td>
+<td>No, but continuously maintained and supported by LUCIT</td>
+<td>No, community-driven</td>
+</tr>
+<tr>
+<td><strong>Maintenance and Updates</strong></td>
+<td>Regular updates and maintenance by Binance</td>
+<td>Depends on community contributions</td>
+<td>Regular updates by LUCIT, quickly adapting to API changes</td>
+<td>Regular updates, dependent on community and external exchanges</td>
+</tr>
+<tr>
+<td><strong>UnicornFy Data Formatting</strong></td>
+<td>Not available</td>
+<td>Not available</td>
+<td>Yes, via UnicornFy for consistent data structuring, developed by LUCIT</td>
+<td>Not available</td>
+</tr>
+<tr>
+<td><strong>Depth Caches (Order Book Storage)</strong></td>
+<td>Basic depth via WebSocket available</td>
+<td>Includes a basic depth cache manager but may be limited for advanced needs.</td>
+<td>Yes, UBLDC provides specialized management for order book depth, developed by LUCIT</td>
+<td>CCXT Pro: Basic depth via WebSocket available, without specialized management</td>
+</tr>
+<tr>
+<td><strong>Depth Cache Cluster</strong></td>
+<td>Not available</td>
+<td>Not available</td>
+<td>Yes, via UNICORN DepthCache Cluster for Binance with Load Balancing and Failover</td>
+<td>Not available</td>
+</tr>
+<tr>
+<td><strong>Trailing Stop-Loss</strong></td>
+<td>Not natively, only manually via REST</td>
+<td>Not natively, only manually via REST</td>
+<td>Yes, via Trailing Stop Order module, automated, maintained by LUCIT</td>
+<td>Not natively supported, only manually via REST</td>
+</tr>
+<tr>
+<td><strong>Multi-Exchange Support</strong></td>
+<td>Binance only</td>
+<td>Binance only</td>
+<td>Binance, Bybit, and top exchanges in progress</td>
+<td>Yes, supports multiple exchanges</td>
+</tr>
+<tr>
+<td><strong>Configuration Complexity</strong></td>
+<td>Simple, unified configuration</td>
+<td>Simple, unified configuration</td>
+<td>Modular, each component can be selectively deployed</td>
+<td>Simple, unified configuration</td>
+</tr>
+<tr>
+<td><strong>Community and Support</strong></td>
+<td>Official support from Binance</td>
+<td>Large community support</td>
+<td>Specialized community and support (SLA), continuous development by LUCIT</td>
+<td>Large, active community</td>
+</tr>
+<tr>
+<td><strong>Available as C-Extension</strong></td>
+<td>Not available</td>
+<td>Not available</td>
+<td>Yes, the entire stack is available as a compiled Python C extension on PyPi and Anaconda</td>
+<td>Not available</td>
+</tr>
+<tr>
+<td><strong>Compatible with PyPy</strong></td>
+<td>Not available</td>
+<td>Not available</td>
+<td>Yes, the entire stack is available as a PyPy package on PyPi</td>
+<td>Not available</td>
+</tr>
+<tr>
+<td><strong>Ideal For</strong></td>
+<td>Developers looking for an officially supported library</td>
+<td>General Binance applications and REST trading</td>
+<td>High-frequency trading with advanced features, advanced order book processing, multi-asset monitoring</td>
+<td>Multi-exchange trading and data querying via a unified API</td>
+</tr>
+</tbody>
+</table>
+</section>
 <section id="installation-and-upgrade">
 <h2>Installation and Upgrade<a class="headerlink" href="#installation-and-upgrade" title="Link to this heading">¶</a></h2>
-<p>The modules require Python 3.7 or above, as they depend on Pythons latest asyncio features for asynchronous/concurrent
+<p>The modules require Python 3.8 or above, as they depend on Pythons latest asyncio features for asynchronous/concurrent
 processing.</p>
 <p>For the PyPy interpreter we offer packages only from Python version 3.9 and higher.</p>
 <p>Anaconda packages are available from Python version 3.8 and higher.</p>
@@ -340,7 +486,7 @@ and <code class="docutils literal notranslate"><span class="pre">win-64</span></
 <h4>Installation<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h4>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
 <span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">lucit</span>
-<span class="n">conda</span> <span class="n">install</span> <span class="o">-</span><span class="n">c</span> <span class="n">lucit</span> <span class="n">unicorn</span><span class="o">-</span><span class="n">binance</span><span class="o">-</span><span class="n">suite</span>
+<span class="n">conda</span> <span class="n">install</span> <span class="o">-</span><span class="n">c</span> <span class="n">lucit</span> <span class="n">unicorn</span><span class="o">-</span><span class="n">trading</span><span class="o">-</span><span class="n">suite</span>
 </pre></div>
 </div>
 </section>
@@ -358,9 +504,9 @@ and <code class="docutils literal notranslate"><span class="pre">win-64</span></
 </section>
 <section id="windows">
 <h4>Windows<a class="headerlink" href="#windows" title="Link to this heading">¶</a></h4>
-<p>Use the below command with the version (such as 2.0.0) you determined
+<p>Use the below command with the version (such as 1.0.0) you determined
 <a class="reference external" href="https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/releases/latest">here</a>:</p>
-<p><code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/archive/2.0.0.tar.gz</span> <span class="pre">--upgrade</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">https://github.com/LUCIT-Systems-and-Development/unicorn-trading-suite/archive/1.0.0.tar.gz</span> <span class="pre">--upgrade</span></code></p>
 </section>
 </section>
 <section id="from-the-latest-source-dev-stage-with-pip-from-github">
@@ -465,12 +611,12 @@ companies from the US analyze binance.com market data - as long as they do not t
           </div>
         </div>
       </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
         <div class="sphinxsidebarwrapper">
             <p class="logo">
                 <div style="text-align: center;">
                     <a href="https://www.lucit.tech"><img src="https://www.lucit.tech/files/images/logos/LUCIT-LOGO.png"></a><br>
-                    <a href="https://shop.lucit.services/software/unicorn-trading-suite" style="font-size: 0.85em;font-weight: 900">Get a UNICORN Trading Suite License!</a><br>
+                    <a href="https://shop.lucit.services/software/unicorn-binance-suite" style="font-size: 0.85em;font-weight: 900">Get a UNICORN Binance Suite License!</a><br>
                     <br>
                     <a href="https://github.com/LUCIT-Systems-and-Development" target="_blank" style="text-decoration:none;"><img src="_static/icons8-github-20.png"></a>
                     <a href="https://fb.me/lucit.systems.and.development" target="_blank" style="text-decoration:none;"><img src="_static/icons8-facebook-20.png"></a>
@@ -486,8 +632,13 @@ companies from the US analyze binance.com market data - as long as they do not t
     <ul>
 <li><a class="reference internal" href="#">UNICORN Trading Suite</a><ul>
 <li><a class="reference internal" href="#description">Description</a></li>
-<li><a class="reference internal" href="#modules-of-the-unicorn-trading-suite">Modules of the UNICORN Trading Suite</a></li>
+<li><a class="reference internal" href="#modules-of-the-unicorn-trading-suite">Modules of the UNICORN Trading Suite</a><ul>
+<li><a class="reference internal" href="#unicorn-trading-suite-for-binance">UNICORN Trading Suite for Binance</a></li>
+<li><a class="reference internal" href="#unicorn-trading-suite-for-bybit">UNICORN Trading Suite for ByBit</a></li>
+</ul>
+</li>
 <li><a class="reference internal" href="#get-a-unicorn-trading-suite-license">Get a UNICORN Trading Suite License</a></li>
+<li><a class="reference internal" href="#unicorn-trading-suite-comparison">UNICORN Trading Suite comparison</a></li>
 <li><a class="reference internal" href="#installation-and-upgrade">Installation and Upgrade</a><ul>
 <li><a class="reference internal" href="#packages-are-created-automatically-with-github-actions">Packages are created automatically with GitHub Actions</a></li>
 <li><a class="reference internal" href="#a-cython-binary-pypy-or-source-code-based-cpython-wheel-of-the-latest-version-with-pip-from-pypi">A Cython binary, PyPy or source code based CPython wheel of the latest version with <code class="docutils literal notranslate"><span class="pre">pip</span></code> from PyPI</a><ul>
@@ -586,7 +737,7 @@ companies from the US analyze binance.com market data - as long as they do not t
       </div>
       <div class="clearer"></div>
     </div>  
-    <div class="related" role="navigation" aria-label="related navigation">
+    <div class="related" role="navigation" aria-label="Related">
       <h3>Navigation</h3>
       <ul>
         <li class="right" style="margin-right: 10px">
@@ -631,10 +782,10 @@ companies from the US analyze binance.com market data - as long as they do not t
     <a href="https://docs.lucit.tech">Index of all LUCIT Software Documentation</a><br />
     &copy; <a href="/license.html">Copyright</a> 2019-2023, LUCIT Systems and Development. All Rights Reserved..
     See <a href="/license.html">License</a> for more information.<br />
-    Last updated on May 12 2024 at 20:21 (CET).
+    Last updated on Nov 04 2024 at 10:27 (CET).
     <a href="https://github.com/LUCIT-Systems-and-Development/unicorn_trading_suite/issues/new/choose">Found a bug</a>?
     <br />
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.1.3.
         with <a href="https://github.com/LUCIT-Systems-and-Development/python-docs-theme-lucit">python-docs-theme-lucit</a>
         by <a href="https://www.lucit.tech">LUCIT Systems and Development</a>.
     </div>
